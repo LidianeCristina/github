@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context="com.example.lidianecristina.brasil.ClimaNorte">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            android:textSize="40sp"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#4CAF50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Parte da região é cortada pela Linha do Equador, nessas áreas as temperaturas costumam ser elevadas, também a região norte caracteriza-se por ser muito úmida. Porém acontecem alguns fenômenos em algumas épocas do ano que jogam as temperaturas de algumas cidade para baixo."
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textView"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lidianecristina.brasil">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Norte"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CentroOeste"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegiaoNordeste"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sudeste"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sul"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CulturaNorte"
+            android:parentActivityName=".Norte" />
+        <activity
+            android:name=".ClimaNorte"
+            android:parentActivityName=".Norte" />
+        <activity
+            android:name=".EstadosNorte"
+            android:parentActivityName=".Norte" />
+        <activity
+            android:name=".CuriosidadesNorte"
+            android:parentActivityName=".Norte" />
+        <activity
+            android:name=".CulturaNordeste"
+            android:parentActivityName=".RegiaoNordeste" />
+        <activity
+            android:name=".ClimaNordeste"
+            android:parentActivityName=".RegiaoNordeste" />
+        <activity
+            android:name=".CuriosidadesNordeste"
+            android:parentActivityName=".RegiaoNordeste" />
+        <activity
+            android:name=".EstadosNordeste"
+            android:parentActivityName=".RegiaoNordeste" />
+        <activity
+            android:name=".CulturaSul"
+            android:parentActivityName=".Sul" />
+        <activity
+            android:name=".ClimaSul"
+            android:parentActivityName=".Sul" />
+        <activity
+            android:name=".CuriosidadesSul"
+            android:parentActivityName=".Sul" />
+        <activity
+            android:name=".EstadosSul"
+            android:parentActivityName=".Sul" />
+        <activity
+            android:name=".CulturaSudeste"
+            android:parentActivityName=".Sudeste" />
+        <activity
+            android:name=".ClimaSudeste"
+            android:parentActivityName=".Sudeste" />
+        <activity
+            android:name=".CuriosidadesSudeste"
+            android:parentActivityName=".Sudeste" />
+        <activity
+            android:name=".EstadosSudeste"
+            android:parentActivityName=".Sudeste" />
+        <activity
+            android:name=".CulturaCO"
+            android:parentActivityName=".CentroOeste"/>
+        <activity
+            android:name=".ClimaCO"
+            android:parentActivityName=".CentroOeste"/>
+        <activity
+            android:name=".EstadosCO"
+            android:parentActivityName=".CentroOeste"/>
+        <activity
+            android:name=".CuriosidadesCO"
+            android:parentActivityName=".CentroOeste">
+        </activity>
+    </application>
+
+</manifest>

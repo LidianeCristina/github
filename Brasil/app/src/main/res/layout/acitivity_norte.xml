@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Região Norte"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#4CAF50"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/regiaonorte"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultura"
+                android:layout_margin="3dp"
+                android:onClick="culturaNorte"
+                android:textSize="20sp"
+                android:background="#4CAF50"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clima"
+                android:onClick="climaNorte"
+                android:layout_margin="3dp"
+                android:textSize="20sp"
+                android:background="#4CAF50"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estados"
+                android:textSize="20sp"
+                android:onClick="estadosNorte"
+                android:layout_margin="3dp"
+                android:background="#4CAF50"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Curiosidades"
+                android:layout_margin="3dp"
+                android:textSize="20sp"
+                android:onClick="curiosidadesNorte"
+                android:background="#4CAF50"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

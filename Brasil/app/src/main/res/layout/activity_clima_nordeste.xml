@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lidianecristina.brasil.ClimaNordeste">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            android:textSize="40sp"
+            android:id="@+id/textView"
+            android:textColor="#FF9800"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:text="              Em função da grande extensão territorial, encontramos na região Nordeste do Brasil quatro tipos de climas:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"
+            android:text="              Clima Semiárido: presente principalmente na região interior do Nordeste (região do sertão nordestino). É uma área que apresenta temperaturas elevadas quase todo o ano. As chuvas são irregulares e em pouca quantidade (de 300 a 500 mm por ano).  A umidade também é muito baixa, tornando o clima seco. É comum ocorrer a ausência de chuvas por vários meses. É a área onde ocorre a conhecida Seca do Nordeste, que leva muitos prejuízos, principalmente, para a agricultura e pecuária da região do sertão."
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:id="@+id/imageView"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/climanordeste"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView4"
+            android:text="              Clima Tropical: presente nas regiões sul da Bahia e central do Maranhão. Caracteriza-se por temperaturas elevadas durante o ano todo. Há pouca quantidade de chuva no inverno, enquanto o verão é marcado por muita chuva."
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView5"
+            android:text="              Clima Litorâneo Úmido: presente na região litorânea do Nordeste. As chuvas são bem distribuídas durante o ano todo, embora no verão chova em maior quantidade em função da alta evaporação provocada pelas temperaturas elevadas. O clima é úmido e as temperaturas são mais elevadas no verão do que no inverno."
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="10dp"
+            android:text="              Clima Equatorial Úmido: presente no litoral do Maranhão (extremo oeste do estado). Apresenta alta pluviosidade (entre 1.800 e 2.200 mm por ano), temperaturas elevadas e alta umidade."
+            android:textColor="#000000" />
+    </RelativeLayout>
+</ScrollView>

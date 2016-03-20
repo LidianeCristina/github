@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lidianecristina.brasil.EstadosSul">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estados"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:textColor="#CE93D8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Os estados do sul do Brasil são: Rio Grande do Sul, Santa Catarina, Paraná. Estes estados formam a região Sul do Brasil."
+            android:textColor="#000000"
+            android:layout_below="@id/textView"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              O estado do Paraná situa-se na região sul do Brasil e sua capital é Curitiba. De acordo com sua localização, o estado paraense faz limites com São Paulo a norte e nordeste, oceano Atlântico a leste, Mato Grosso do Sul a noroeste, Santa Catarina ao sul, Argentina a sudoeste, Paraguai a oeste. As cidades mais populosas são: Curitiba, Londrina, Maringá, Ponta Grossa, Cascavel, São José dos Pinhais, Foz do Iguaçu e Colombo."
+            android:textColor="#000000"
+            android:layout_below="@id/textView2"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Santa Catarina é o menor e menos populoso estado da região Sul e sua capital é Florianópolis. De acordo com sua localização situa-se no centro da Região Sul do Brasil, tendo como limites o do Paraná ao norte, o Rio Grande do Sul ao sul, o Oceano Atlântico a leste e a Argentina a oeste. As cidades mais populosas do estado são: Joinville, Florianópolis, Blumenau e São José."
+            android:textColor="#000000"
+            android:layout_below="@id/textView3"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              O Rio Grande do Sul, capital Porto Alegre, é o maior e o mais populoso estado da região sul. Considerado o estado mais meridional do país, o estado faz fronteira com Santa Catarina ao norte, Oceano Atlântico ao leste, Argentina a oeste e o Uruguai ao sul. As cidades mais populosas do estado são: Porto Alegre, Caxias do Sul, Pelotas, Canoas, Santa Maria e Gravataí."
+            android:textColor="#000000"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

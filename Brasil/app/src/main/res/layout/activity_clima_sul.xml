@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lidianecristina.brasil.ClimaSul">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:textColor="#CE93D8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              A região sul, devido a sua localização ao sul do Trópico de Capricórnio, possui um clima diferente de outras regiões do país. Além disso, o solo e a vegetação também sofrem variações e são diferentes da zona tropical."
+            android:textColor="#000000"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Os três estados brasileiros pertencentes à região Sul possuem as cidades turísticas mais frias do Brasil. O clima da região é subtropical, tipo de clima que está em transição entre o tropical, que ocorre na maior parte do país, e o temperado, na Argentina."
+            android:textColor="#000000"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Os ventos que atingem essas localidades costumam interferir no clima. Quando ocorrem durante o verão, recebem o nome de ventos alísios e vem do sudeste; Ainda, nessa estação do ano, a região passa pela influência das massas quentes, onde ocorre o aumento da temperatura e as chuvas de convecção, geralmente no fim de tarde, quando o vapor de água sobe durante a estação mais quente. Já no inverno, os ventos recebem o nome de minuano ou pampeiro e surgem de massas de ar do Polo Sul. As massas frias são uma das que mais influenciam a região, sendo responsáveis pela formação da neve."
+            android:textColor="#000000"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

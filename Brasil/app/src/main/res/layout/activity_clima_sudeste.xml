@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lidianecristina.brasil.ClimaSudeste">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clima"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView"
+            android:textColor="#FF5722"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView2"
+            android:layout_below="@id/textView"
+            android:text="              O clima da região sudeste é caracterizado pelo clima tropical no litoral das baixadas capixaba e fluminense, também na parte setentrional mineira e oeste paulista, onde a temperatura costuma ser elevada e durante o ano ocorrem variações secas e chuvosas. Por conta da altitude, as temperaturas caem neste clima, formando o chamado clima tropical de altitude, onde localiza-se, por exemplo, Campos de Jordão e Ouro Preto."
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView3"
+            android:layout_below="@id/textView2"
+            android:text="              Os climas subtropical e semi-árido também são vistos na região, o primeiro no sul do estado de São Paulo, próximo a divisa com o Paraná, com uma grande variação térmica e boa distribuição pluvial, e o segundo no norte de Minas Gerais, caracterizado pela aridez e baixa pluviosidade."
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Região Centro Oeste"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#00B8D4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/regiaocentrooeste"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultura"
+                android:layout_margin="3dp"
+                android:textSize="20sp"
+                android:onClick="culturaCO"
+                android:background="#00B8D4"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clima"
+                android:onClick="climaCO"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:background="#00B8D4"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estados"
+                android:textSize="20sp"
+                android:onClick="estadosCO"
+                android:layout_margin="3dp"
+                android:background="#00B8D4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Curiosidades"
+                android:layout_margin="3dp"
+                android:onClick="curiosidadesCO"
+                android:textSize="20sp"
+                android:background="#00B8D4"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

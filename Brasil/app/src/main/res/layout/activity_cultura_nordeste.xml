@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lidianecristina.brasil.CulturaNordeste">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cultura"
+            android:textSize="40sp"
+            android:id="@+id/textView"
+            android:textColor="#FF9800"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              O carnaval é o evento popular mais famoso do Nordeste, especialmente em Salvador, Olinda e Recife. Também as festas juninas de Caruaru (PE) e Campina Grande (PB) se destacam. Os festejos de bumba meu boi são tradicionais em todos estados nordestinos."
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              A capoeira foi introduzida no Brasil pelos escravos africanos, é considerada uma modalidade de luta e também de dança. Adquiriu adeptos rapidamente nos estados nordestinos, principalmente na Bahia e Pernambuco. O instrumento utilizado durante as apresentações de capoeira é o berimbau, que é constituído de arco, cabaça cortada, caxixi (cestinha com sementes), vareta e dobrão (moeda)."
+            android:textColor="#000000"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              O coco é um estilo de dança muito praticado nos estados de Alagoas, Paraíba, Pernambuco e Rio Grande do Norte. A dança é uma expressão do desabafo da alma popular, da gente mais sofrida do Nordeste brasileiro; além disso, foi a dança preferida dos cangaceiros; Lampião e outros cangaceiros dançavam nas horas de descanso e distração."
+            android:textColor="#000000"
+            android:layout_below="@id/textView3"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              Literatura de Cordel é uma das manifestações culturais nordestinas, consiste na elaboração de pequenos livros contendo histórias escritas em prosa ou verso, os assuntos são os mais variados: desafios, histórias ligadas à religião, ritos ou cerimônias."
+            android:layout_below="@id/textView4"
+            android:textColor="#000000"
+            android:id="@+id/textView5"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cocoderoda"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/literaturacordel"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
